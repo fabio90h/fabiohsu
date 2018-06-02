@@ -1,28 +1,78 @@
-.App {
-  text-align: center;
-}
+/* APP */
+  .title{
+    text-align: center;
+  }
+  .App {
+    /* text-align: center; */
+  }
+  html{
+    background-color: silver;
+  }
+  ul{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+  }
+  h5{
+    padding: 0;
+    margin: 0;
+  }
+  p{
+    margin: 0;
+  }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/* CODING PROJECT */
+.codingProjectsList{ 
+  flex-direction: column;
+  /* UL */
 }
+  .codingProjects{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    /* LI */
+  }
+    #codingProjectImage{
+      flex: 1;
+      max-height: 400px;
+      overflow: hidden;
+      /* DIV */
+    }
+      #codingProjectImage > img{ 
+          width: 100%;
+        }
+    #codingProjectInfo{
+      flex: 1;
+      background-color: white;
+      /* border: 1px solid red; */
+      padding-left: 5px;
+      padding-right: 5px;
+      /* DIV */
+    }
+      #projectDescription{
+        margin-bottom: 10px;
+      }
+        #projectDescription > p{
+          padding-top: 5px;
+        }
+      #projectPurpose{
+        margin-bottom: 10px;
+      }
+        #projectPurpose > p{
+          padding-top: 5px;
+        }
+      .techNameList{
+        display: flex;
+        flex-direction: row;
+        /* UL */
+      }
+      .techName{
+        border: 1px solid blue;
+        margin-right: 5px;
+        padding: 3px;
+        /* LI */
+      }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
