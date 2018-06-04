@@ -1,61 +1,129 @@
 /* APP */
-  .title{
-    text-align: center;
-  }
   .App {
-    /* text-align: center; */
+    background-color: #f6f9fc;;
   }
-  html{
-    background-color: silver;
-  }
+  /* html{
+    background-image: url('');
+  } */
   ul{
     display: flex;
     padding: 0;
     list-style-type: none;
   }
-  h5{
+  h3{
     padding: 0;
     margin: 0;
   }
   p{
     margin: 0;
   }
-
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited{
+    text-decoration: none;
+    color: inherit;
+  }
+/* TITLE */
+.title{
+  text-align: center;
+  background-image: url('http://iliketowastemytime.com/sites/default/files/rio-de-janeiro-brazil-hd-wallpaper.jpg');
+  background-position-y: -200px;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  /* position: relative; */
+}
+  .title > h1{
+    margin-top: 40px;
+  }
+  .aboutMe{
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    margin: 0 20px;
+    position: absolute;
+    top: 32%;
+    right: 23%;
+    width: 50%;
+    background-color: rgb(221, 222, 224);
+    /* DIV */
+  }
+    .aboutMe > h2 {
+      margin: 5px 0;
+    }
+    .aboutMe > p {
+      line-height: 1.5em;
+      font-size: .9em;
+      text-align: justify;
+      /* P */
+    }
 /* CODING PROJECT */
 .codingProjectsList{ 
   flex-direction: column;
+  margin-top: 80px;
   /* UL */
 }
+  .codingProjectsList > h2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    /* H2 */
+  }
   .codingProjects{
     display: flex;
     flex-direction: row;
-    /* border: 2px solid black; */
     width: 80%;
     margin: auto;
     margin-bottom: 50px;
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
     /* LI */
   }
     #codingProjectImage{
-      flex: 1;
-      max-height: 400px;
+      width: 40%;
+      height: 400px;
       overflow: hidden;
+      z-index: 0;
+      /* border: 2px solid black; */
       /* DIV */
     }
       #codingProjectImage > img{ 
-          width: 100%;
+          width: 155%;
+          height: 125%;
+          /* IMG */
         }
     #codingProjectInfo{
-      flex: 1;
+      width: 60%;
+      z-index: 2;
       background-color: white;
+      font-size: .8em;
+      line-height: 1.5em;
       /* border: 1px solid red; */
       padding-left: 5px;
       padding-right: 5px;
+      padding-bottom: 20px;
       /* DIV */
     }
+      #projectTitle{
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.8em;
+        line-height: 38px;
+        color: #525f7f;
+        margin-top: 0;
+        margin-bottom: 35px;
+      }
       #projectDescription{
         margin-bottom: 10px;
       }
         #projectDescription > p{
+          /* margin-bottom: 30px; */
+          line-height: 27px;
+          text-align: justify;
+          color: #525f7f;
           padding-top: 5px;
         }
       #projectPurpose{
@@ -63,16 +131,50 @@
       }
         #projectPurpose > p{
           padding-top: 5px;
+          /* P */
         }
       .techNameList{
         display: flex;
         flex-direction: row;
         /* UL */
       }
-      .techName{
-        border: 1px solid blue;
-        margin-right: 5px;
-        padding: 3px;
-        /* LI */
+        .techName{
+          border: 2px solid #92eac0;
+          border-radius: 4px;
+          padding: 8px;
+          color: #525f7f;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+          font-size: .85em;
+          /* LI */
+        }
+      .project-links{
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
       }
+        .demoButton, .codeButton{
+          color: white;
+          margin-right: 20px;
+          margin-top: 20px;
+          white-space: nowrap;
+          display: inline-block;
+          line-height: 40px;
+          padding: 0 14px;
+          box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+          border-radius: 4px;
+          letter-spacing: .025em;
+          text-decoration: none;
+          transition: all .15s ease;
+          font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+          font-size: .9em;
+          font-weight: 600;
+          box-sizing: border-box;
+          background: blue;
+           /* #747fe0; */
+          
+        }
 

@@ -2,12 +2,9 @@ import React from 'react';
 
 const AboutMe = () => {
     return(
-        <div>
-            <h3>About me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquid quisquam libero quidem nam ad consequatur accusantium et optio, quaerat hic esse qui, voluptatibus ab sint deserunt, dicta voluptatem veniam.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt quia debitis culpa quae dignissimos nam officiis beatae praesentium, perspiciatis laboriosam atque, veniam tempora fugiat ratione quisquam quam quos obcaecati.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit aspernatur ut asperiores! Molestiae hic quam unde cupiditate accusamus ad accusantium obcaecati minus quasi consequuntur, quis ipsum quas, nemo voluptatibus!
-            </p>
+        <div className='aboutMe'>
+            <h2>A little about myself...</h2>
+            <p>I was born and raised in Sao Paulo, Brazil for 14 years before moving to the United States. I fluently speak English, Portuguese, and Spanish. During my free time I like to code, play soccer, or woodwork. I love to keep up with the latest technology and do some creative problem solving.</p>
         </div>
     );
 };
