@@ -27,7 +27,7 @@ class CodingProjects extends Component {
             image: require('./img/chinaChefApp.png'),
             techs: ['HTML', 'CSS', 'Python', 'Django', 'Google Maps API', 'Bootstrap'],
             github: 'https://github.com/fabio90h/ChinaChef',
-            demo: 'https://fabio90h.github.io/Calculator/',
+            demo: 'https://fabio90h.github.io/ChinaChef/',
         },
         {
             title: 'To Do Application',
@@ -44,8 +44,8 @@ class CodingProjects extends Component {
             purpose: ' A place to showcase my projects and tell people a little bit about me and my experience. I used React for this website so that I easily create the website components and make changes.',
             image: require('./img/fabiohsuApp.png'),
             techs: ['HTML', 'CSS', 'ReactJS'],
-            github: 'https://github.com/fabio90h/Calculator',
-            demo: 'https://fabio90h.github.io/Calculator/',
+            github: 'https://github.com/fabio90h/fabiohsu',
+            demo: 'https://fabio90h.github.io/fabiohsu/',
         },
     ]
 

@@ -15,4 +15,6 @@ A place to showcase my projects and tell people a little bit about me and my exp
 - Displays projects and its description
 
 # Tech Used
-- React
+- ReactJS
+- HTML
+- CSS
