@@ -1,6 +1,6 @@
 /* APP */
   .App {
-    background-color: #f6f9fc;;
+    background-color: #f6f9fc;
   }
   /* html{
     background-image: url('');
@@ -32,22 +32,23 @@
   background-position-y: -200px;
   background-size: cover;
   background-repeat: no-repeat; 
-  color: white;
   display: flex;
+  position: relative;
   flex-direction: column;
   height: 300px;
   /* position: relative; */
 }
   .title > h1{
+    color: white;
     margin-top: 40px;
   }
   .aboutMe{
     box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
     padding: 20px;
-    margin: 0 20px;
+    margin-bottom: 40px;
     position: absolute;
-    top: 32%;
-    right: 23%;
+    top: 60%;
+    right: 25%;
     width: 50%;
     background-color: rgb(221, 222, 224);
     /* DIV */
@@ -68,15 +69,16 @@
   /* UL */
 }
   .codingProjectsList > h2{
-    width: 80%;
     margin: auto;
     margin-bottom: 30px;
+    max-width: 1000px;
     /* H2 */
   }
   .codingProjects{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    max-width: 1000px;
+    /* width: 80%; */
     margin: auto;
     margin-bottom: 50px;
     box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
@@ -84,24 +86,24 @@
   }
     #codingProjectImage{
       width: 40%;
-      height: 400px;
+      height: inherit;
       overflow: hidden;
-      z-index: 0;
-      /* border: 2px solid black; */
+      transition: opacity 0.5s;
+      /* border: 1px solid red; */
       /* DIV */
     }
       #codingProjectImage > img{ 
-          width: 155%;
-          height: 125%;
-          /* IMG */
+        /* border: 1px solid red; */
+        width: 155%;
+        height: 125%;
+        /* IMG */
         }
     #codingProjectInfo{
       width: 60%;
-      z-index: 2;
       background-color: white;
+      color: #525f7f;
       font-size: .8em;
       line-height: 1.5em;
-      /* border: 1px solid red; */
       padding-left: 5px;
       padding-right: 5px;
       padding-bottom: 20px;
@@ -113,8 +115,8 @@
         font-size: 1.8em;
         line-height: 38px;
         color: #525f7f;
-        margin-top: 0;
-        margin-bottom: 35px;
+        padding-top: 15px;
+        margin-bottom: 15px;
       }
       #projectDescription{
         margin-bottom: 10px;
@@ -123,14 +125,18 @@
           /* margin-bottom: 30px; */
           line-height: 27px;
           text-align: justify;
-          color: #525f7f;
           padding-top: 5px;
+          padding-right: 35px;
         }
       #projectPurpose{
         margin-bottom: 10px;
       }
         #projectPurpose > p{
+          line-height: 27px;
+          text-align: justify;
+          color: #525f7f;
           padding-top: 5px;
+          padding-right: 35px;
           /* P */
         }
       .techNameList{
@@ -145,7 +151,7 @@
           color: #525f7f;
           margin-right: 10px;
           margin-bottom: 10px;
-          font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+          /* font-family: Camphor,Open Sans,Segoe UI,sans-serif; */
           font-size: .85em;
           /* LI */
         }
@@ -169,7 +175,7 @@
           letter-spacing: .025em;
           text-decoration: none;
           transition: all .15s ease;
-          font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+          /* font-family: Camphor,Open Sans,Segoe UI,sans-serif; */
           font-size: .9em;
           font-weight: 600;
           box-sizing: border-box;
@@ -177,4 +183,50 @@
            /* #747fe0; */
           
         }
+
+/* MEDIA QUERY */
+/* @media (min-width: 1010px) {
+
+} */
+@media (max-width: 1100px) {
+  .codingProjects{
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .codingProjectsList > h2{
+
+  }
+}
+@media (max-width: 1000px) {
+  #codingProjectImage{
+    width: 0%;
+  }
+  #codingProjectInfo{
+    width: 100%;
+    padding: 35px;
+    box-sizing: border-box;
+    /* DIV */
+  }
+}
+@media (max-width: 800px) {
+  .codingProjectsList{ 
+    margin-top: 100px;
+    /* UL */
+  }
+}
+@media (max-width: 650px) {
+  .aboutMe{
+    position: relative;
+    margin: auto;
+    top: 0%;
+    right: 0%;
+    width: 80%;
+    /* DIV */
+  }
+  .codingProjectsList{ 
+    margin-top: 30px;
+    /* UL */
+  }
+}
+
 

@@ -12,10 +12,10 @@ class App extends Component {
             <span>Fabio</span>
           </header> */}
           <div className='title'>
-          <div className='titleBackground'></div>
+            <div className='titleBackground'></div>
             <h1>Hi, I am Fabio Hsu</h1>
+            <AboutMe />
           </div>
-          <AboutMe />
           <ul className='codingProjectsList'>
              <h2>Coding Projects</h2>
              <CodingProjects/>
