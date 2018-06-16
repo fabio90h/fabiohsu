@@ -1,6 +1,12 @@
+html{
+  background-color: #f6f9fc;
+  
+}
 /* APP */
   .App {
-    background-color: #f6f9fc;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    width: 80%;
+    margin: auto;
   }
   /* html{
     background-image: url('');
@@ -27,41 +33,100 @@
   }
 /* TITLE */
 .title{
-  text-align: center;
-  background-image: url('http://iliketowastemytime.com/sites/default/files/rio-de-janeiro-brazil-hd-wallpaper.jpg');
-  background-position-y: -200px;
-  background-size: cover;
-  background-repeat: no-repeat; 
   display: flex;
   position: relative;
   flex-direction: column;
   height: 300px;
-  /* position: relative; */
+  font-family: 'Open Sans', sans-serif;
 }
   .title > h1{
-    color: white;
+    font-size: 4.5em;
     margin-top: 40px;
+    color: #747fe0;
   }
   .aboutMe{
-    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
     margin-bottom: 40px;
-    position: absolute;
-    top: 60%;
-    right: 25%;
-    width: 50%;
-    background-color: rgb(221, 222, 224);
+    color: #525f7f;
+    width: 100%;
+    line-height: 2.0em;
+    font-size: 1.2em;
+    text-align: justify;
     /* DIV */
   }
-    .aboutMe > h2 {
-      margin: 5px 0;
+/* TERMINAL */
+#terminalWindow{
+    box-shadow: 0 50px 100px rgba(50,50,93,.05), 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.1);
+    background-color: #f6f9fc;
+    max-width: 1000px;
+    margin: auto;
+    letter-spacing: 0.7px;
+}
+  #terminalHead{
+    height: 28px;
+    background-color: #e4e3e5;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+    #red-circle{
+      background-color: #f96256;
+      border: 1px solid #f65549;
     }
-    .aboutMe > p {
-      line-height: 1.5em;
-      font-size: .9em;
-      text-align: justify;
-      /* P */
+    #yellow-circle{
+      background-color: #fdbc3d;
+      border: 1px solid #ffb524;
     }
+    #green-circle{
+      background-color: #33c948;
+      border: 1px solid #2dbb41;
+    }
+    
+    #red-circle, #yellow-circle, #green-circle{
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-left: 9px;
+    }
+
+  #terminalBody{
+    /* border: 1px solid red; */
+    box-shadow: 0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+    border-radius: 0 0 4px 4px;
+    background-color: rgba(90, 93, 122, 1);
+    padding: 40px;
+
+  }
+    .terminal{
+      margin-bottom: 20px;
+      color: #e7d184;
+    }
+      .terminal > div > a{
+        color: #35feff;
+      }
+      .response{
+        color: #e7d184;
+      }
+      .terminalCommand{
+        color: #f7f7f7;
+        margin-bottom: 2px;
+      }
+      .terminalCommand span{
+        margin-right: 5px;
+        }
+      #cursor{
+        color: #cfcdcd;
+        /* DIV */
+      }
+        #blink{
+          margin-left: 10px;
+          background: hsla(0,0%,97%,.65);
+          /* SPAN */
+      }
+
 /* CODING PROJECT */
 .codingProjectsList{ 
   flex-direction: column;
@@ -69,11 +134,21 @@
   /* UL */
 }
   .codingProjectsList > h2{
+    color: #525f7f;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     max-width: 1000px;
     /* H2 */
   }
+    .codingProjectsList > h2:after{
+      content: " ";
+      border: 4px solid #747fe0;
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 50px;
+      /* AFTER */
+    }
   .codingProjects{
     display: flex;
     flex-direction: row;
@@ -86,14 +161,18 @@
   }
     #codingProjectImage{
       width: 40%;
+      /* display: flex; */
       height: inherit;
       overflow: hidden;
+      /* justify-content: center; */
       transition: opacity 0.5s;
-      /* border: 1px solid red; */
+      border: 1px solid red;
+      /* margin: auto; */
       /* DIV */
     }
       #codingProjectImage > img{ 
-        /* border: 1px solid red; */
+        border: 1px solid green;
+        /* width: 70%; */
         width: 155%;
         height: 125%;
         /* IMG */

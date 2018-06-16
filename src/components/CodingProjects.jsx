@@ -7,6 +7,7 @@ class CodingProjects extends Component {
             description: 'A simple calculator with the ability to perform basic arithmetics..',
             purpose: 'After reading articles and watching tutorial videos on CSS Grid, I wanted to give it a try to see how beneficial it is to use CSS grid. I thought that making a calculator would be the perfect project to get familiar with it since it consists in arranging the positions of the buttons.',
             image: require('./img/calculatorApp.png'),
+            // image: require('./gif/Calculator.gif'),
             techs: ['HTML', 'CSS Grid', 'JavaScript'],
             github: 'https://github.com/fabio90h/Calculator',
             demo: 'https://fabio90h.github.io/Calculator/',
