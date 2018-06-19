@@ -16,7 +16,7 @@ const Terminal = () => {
                 {/* LOCATION */}
                 <div className='terminal' id='location'>
                     <div className='terminalCommand'><span>></span> Fabio.currentLocation</div>
-                    <div className='response'>"Detroit, Michigan"</div>
+                    <div className='response'>"Detroit, Michigan" (Relocating to California)</div>
                 </div>
                 {/* CONTACT INFO */}
                 <div className='terminal' id='contactInfo'>
@@ -27,11 +27,11 @@ const Terminal = () => {
                         "<a href="https://github.com/fabio90h">github</a>"]
                     </div>
                 </div>
-                {/* RESUME */}
+                {/* RESUME
                 <div className='terminal' id='resume'>
                     <div className='terminalCommand'><span>></span> Fabio.resume</div>
-                    <div>"<a href="">fabiohsu.pdf</a>"</div> 
-                </div>
+                    <div>"<a rel="noopener" href={require('./doc/fabioResume.pdf')} target="_blank">fabiohsu.pdf</a>"</div> 
+                </div> */}
                 {/* INTERESTS */}
                 <div className='terminal' id='interests'>
                     <div className='terminalCommand'><span>></span> Fabio.interests</div>
@@ -46,7 +46,7 @@ const Terminal = () => {
                 <div className='terminal' id='skills'>
                     <div className='terminalCommand'><span>></span> Fabio.skills</div>
                     <div className='response'>
-                        ["CSS", "JavaScript", "Python", "ReactJS", "Redux", "git", "Jest", "Enzyme" ]
+                        ["CSS", "JavaScript", "Python", "ReactJS", "Redux", "git", "Jest", "Enzyme", "C++" ]
                     </div>
                 </div>
                 {/* CURSOR */}

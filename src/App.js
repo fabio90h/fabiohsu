@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import AboutMe from './components/AboutMe.jsx';
+// import AboutMe from './components/AboutMe.jsx';
 import CodingProjects from './components/CodingProjects';
 import Terminal from './components/Terminal';
 // import OtherProjects from './components/OtherProjects';
@@ -11,13 +11,16 @@ class App extends Component {
       <div className="App">
           {/* HEADER */}
           <div className='title'>
-            <div className='titleBackground'></div>
+            {/* <div className='titleBackground'></div> */}
             <h1> > Fabio Hsu</h1>
-            <AboutMe />
+            <h3>
+            I am a software engineer at General Motors. My passion is to build simple, and beautiful user experience while solving challenging problems.
+            </h3>
+            {/* <AboutMe /> */}
           </div>
           
           {/* TERMINAL */}
-          <div>
+          <div id='terminalContainer'>
             <Terminal/>
           </div>
 
