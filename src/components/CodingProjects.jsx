@@ -41,7 +41,7 @@ class CodingProjects extends Component {
         {
             title: 'Fabio Hsu Portfolio',
             description: 'This website!',
-            purpose: "A place to showcase my projects and tell people a little bit about me and my experience. I used React for this website so I easily create and modify the website's components.",
+            purpose: "A place to showcase my projects and tell people a little bit about myself and my experiences. I used React for this website so I can easily create and modify the website's components.",
             image: require('./gif/Portfolio.gif'),
             techs: ['HTML', 'CSS', 'ReactJS', 'JavaScript'],
             github: 'https://github.com/fabio90h/fabiohsu',
