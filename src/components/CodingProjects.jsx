@@ -3,6 +3,16 @@ import React, { Component } from 'react';
 class CodingProjects extends Component {
     state = [
         {
+            title: 'Lotto Tracker',
+            description: 'A Fullstack we',
+            purpose: 'After reading articles and watching tutorial videos on CSS Grid, I wanted to give it a try to see how beneficial it was. I thought that making a calculator would be the perfect project to get familiar with it since it consists in arranging the positions of the buttons.',
+            image: require('./gif/Calculator.gif'),
+            techs: ['ReactJS', 'Redux', 'Heroku', 'Express', 'MongoDB', 'MongooseJS', 'Puppeteer', 
+                    'Cloudinary', 'GoogleAUTH', 'SendGrid', 'Middlewares'],
+            github: 'https://github.com/fabio90h/lottoTracker',
+            demo: 'https://hidden-tor-15255.herokuapp.com',
+        },
+        {
             title: 'Calculator',
             description: 'A simple calculator with the ability to perform basic arithmetics.',
             purpose: 'After reading articles and watching tutorial videos on CSS Grid, I wanted to give it a try to see how beneficial it was. I thought that making a calculator would be the perfect project to get familiar with it since it consists in arranging the positions of the buttons.',

@@ -3,9 +3,35 @@ import './App.css';
 // import AboutMe from './components/AboutMe.jsx';
 import CodingProjects from './components/CodingProjects';
 import Terminal from './components/Terminal';
+import Macbook from './components/MacBook';
 // import OtherProjects from './components/OtherProjects';
 
+// import * as GSAP from 'gsap';
+// import indicators from 'scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
+// import ScrollMagic from 'scrollmagic'
+
+import { TweenMax, Sine } from 'gsap'
+import ScrollMagic from 'scrollmagic'
+import 'animation.gsap'
+import 'debug.addIndicators'
+
+// import ScrollMagic from 'scrollmagic'
+
+
 class App extends Component {
+  componentDidMount() {
+    let controller = new ScrollMagic.Controller();
+    console.log()
+    let scene = new ScrollMagic.Scene({
+      triggerElement: "#terminalContainer",
+      duration: 200,
+      offset: 100,
+    })
+    .setTween(TweenMax.to(".monitor", 1, {className: "+=expand"}))
+    .addIndicators({name: "tween css class"})
+    .addTo(controller);
+ }
+
   render() {
     return (
       <div className="App">
@@ -17,6 +43,11 @@ class App extends Component {
             I am a software engineer at General Motors. My passion is to build simple, and beautiful user experience while solving challenging problems.
             </h3>
             {/* <AboutMe /> */}
+          </div>
+
+          {/* MACBOOK */}
+          <div className='macBook'>
+            <Macbook/>
           </div>
           
           {/* TERMINAL */}
