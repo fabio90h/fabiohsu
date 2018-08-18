@@ -52,7 +52,7 @@ const Terminal = () => {
                 {/* CURSOR */}
                 <div id='cursor'>
                     <span className='terminalCommand'>></span>
-                    <span id='blink'>&nbsp;</span>
+                    <span id='terminalCursor' className='blink'>&nbsp;&nbsp;</span>
                 </div>
             </div>
         </div>
