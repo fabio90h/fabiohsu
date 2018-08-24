@@ -23,10 +23,11 @@ class App extends Component {
     
     timeline
       .to(".monitor", 0.2, {scaleX: 1, scaleY: 1})
-      .to(".screen", 1, {backgroundColor: '#f6f9fc'})
+      .to(".screen", 2, {backgroundColor: '#f6f9fc'}, '+=2')
+      .to([".macBook > h1", ".macBook > h4"], 2, {opacity: 0}, '-=1.8')
       .to(".monitor", 5.0, {scaleX: 7, scaleY: 7}, '-=0.5')
-      .to(".title", 0.5, {opacity: 1, y: 5}, '-=4.2')    
-      .to("#terminalContainer", 0.5, {opacity: 1, x: 10}, '-=2.5')
+      .to(".title", 0.5, {opacity: 1, y: 5}, '-=3.6')    
+      .to("#terminalContainer", 0.5, {opacity: 1, x: 10}, '-=1.5')
    
     //timeline.add(tween1).add(tween2);
     let scene = new ScrollMagic.Scene({
@@ -45,18 +46,19 @@ class App extends Component {
         
         {/* ==================== MACBOOK ==================== */}
         <div className='macBook'>
-          <h1>Welcome!</h1>
-          {/* <h4>Please feel free to use my computer. <br/> Scroll down to wake it up </h4> */}
+          <h1>PORTFOLIO</h1>
+          <h4>BY: FABIO HSU</h4>
+          <div id='background'></div>
           <Macbook/>
+          {/* <p>Scroll down to wake it up </p> */}
           <img className='arrow bounce' src={arrow} alt='scrollArrow'/>
-         
         </div>
         {/* ==================== PAGE ==================== */}
         <div className='page'>
           {/* HEADER */}
           <div className='title'>
             {/* <div className='titleBackground'></div> */}
-            <h1> > Fabio Hsu<span id='titleCursor' className='blink'>&nbsp;</span></h1>
+            <h1>> Fabio Hsu<span id='titleCursor' className='blink'>&nbsp;</span></h1>
             <h3>
               I am a software engineer at General Motors. My passion is to build simple, and beautiful user experience while solving challenging problems.
             </h3>

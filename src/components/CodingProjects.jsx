@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 class CodingProjects extends Component {
     state = [
         {
-            title: 'Lotto Tracker',
-            description: 'A Fullstack we',
-            purpose: 'After reading articles and watching tutorial videos on CSS Grid, I wanted to give it a try to see how beneficial it was. I thought that making a calculator would be the perfect project to get familiar with it since it consists in arranging the positions of the buttons.',
-            image: require('./gif/Calculator.gif'),
+            title: 'Lotto Tracker (Full Stack)',
+            description: 'Lotto pool website that automatically keeps track of all the participants’ payment credit as well to see how much was won from each drawing.',
+            purpose: 'My friends and I have a lotto pool where I am responsible to purchase Mega Millions and Powerball every week. Instead of keeping a long spreadsheet and emailing the participants on how much we won and how much they owe to the lotto pool every week, I decided to create a full stack website that can do most of the work for me. This application can track each participants’ credit, send automatic reminders when they are due, and grab information from the lotto website on how much was won. Most importantly, however, this application was for me to get familiar with developing an fullstack application.',
+            image: require('./gif/LottoTracker.gif'),
             techs: ['ReactJS', 'Redux', 'Heroku', 'Express', 'MongoDB', 'MongooseJS', 'Puppeteer', 
                     'Cloudinary', 'GoogleAUTH', 'SendGrid', 'Middlewares'],
             github: 'https://github.com/fabio90h/lottoTracker',
@@ -20,6 +20,15 @@ class CodingProjects extends Component {
             techs: ['HTML', 'CSS Grid', 'JavaScript'],
             github: 'https://github.com/fabio90h/Calculator',
             demo: 'https://fabio90h.github.io/Calculator/',
+        },
+        {
+            title: 'World Cup Madness',
+            description: 'A website to view all the participant’s world cup bracket and their points.',
+            purpose: 'My friends and I had a World Cup Bracket Contest during the World Cup of 2018 to see who had the most accurate bracket. The purpose of this website is to have a common place where the participants can see each other’s bracket and leaderboard, and post comments.',
+            image: require('./gif/WorldCup.gif'),
+            techs: ['CSS', 'HTML', 'JavaScript', 'Firebase', 'ReactJS', 'Redux'],
+            github: 'https://github.com/fabio90h/Calculator',
+            demo: 'https://fabio90h.github.io/worldcup2018/',
         },
         {
             title: 'China Chef Restaurant',
