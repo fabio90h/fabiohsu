@@ -27,7 +27,7 @@ class App extends Component {
       .to([".macBook > h1", ".macBook > h4"], 2, {opacity: 0}, '-=1.8')
       .to(".monitor", 5.0, {scaleX: 7, scaleY: 7}, '-=0.5')
       .to(".title", 0.5, {opacity: 1, y: 5}, '-=3.6')    
-      .to("#terminalContainer", 0.5, {opacity: 1, x: 10}, '-=1.5')
+      .to("#terminalContainer", 0.5, {opacity: 1, x: 10}, '-=2.0')
    
     //timeline.add(tween1).add(tween2);
     let scene = new ScrollMagic.Scene({

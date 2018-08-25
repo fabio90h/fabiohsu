@@ -4,8 +4,8 @@ class CodingProjects extends Component {
     state = [
         {
             title: 'Lotto Tracker (Full Stack)',
-            description: 'Lotto pool website that automatically keeps track of all the participants’ payment credit as well to see how much was won from each drawing.',
-            purpose: 'My friends and I have a lotto pool where I am responsible to purchase Mega Millions and Powerball every week. Instead of keeping a long spreadsheet and emailing the participants on how much we won and how much they owe to the lotto pool every week, I decided to create a full stack website that can do most of the work for me. This application can track each participants’ credit, send automatic reminders when they are due, and grab information from the lotto website on how much was won. Most importantly, however, this application was for me to get familiar with developing an fullstack application.',
+            description: 'Lotto pool website that automatically keeps track of all the participants’ payments, and how much was won from each drawing.',
+            purpose: 'My friends and I have a lotto pool where I am responsible to purchase Mega Millions and Powerball every week. Instead of keeping a long spreadsheet and emailing the participants on how much we won and how much they owe to the lotto pool every week, I decided to create a full stack web application that can do most of the work for me. It can track each participants’ credit, send automatic reminders when they are due, and grab information from the lotto website on how much was won. Most importantly, however, this application was for me to get familiar with developing full stack applications.',
             image: require('./gif/LottoTracker.gif'),
             techs: ['ReactJS', 'Redux', 'Heroku', 'Express', 'MongoDB', 'MongooseJS', 'Puppeteer', 
                     'Cloudinary', 'GoogleAUTH', 'SendGrid', 'Middlewares'],
