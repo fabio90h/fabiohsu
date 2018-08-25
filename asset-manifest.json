@@ -1,11 +1,14 @@
 {
-  "main.css": "static/css/main.fc5efc19.css",
-  "main.css.map": "static/css/main.fc5efc19.css.map",
-  "main.js": "static/js/main.ad8aee78.js",
-  "main.js.map": "static/js/main.ad8aee78.js.map",
+  "main.css": "static/css/main.cc3597c3.css",
+  "main.css.map": "static/css/main.cc3597c3.css.map",
+  "main.js": "static/js/main.00eac071.js",
+  "main.js.map": "static/js/main.00eac071.js.map",
   "static/media/Calculator.gif": "static/media/Calculator.12fdbcfc.gif",
   "static/media/ChinaChef.gif": "static/media/ChinaChef.a6e187e7.gif",
   "static/media/IOU.gif": "static/media/IOU.0c49c917.gif",
+  "static/media/LottoTracker.gif": "static/media/LottoTracker.7df6e906.gif",
   "static/media/Portfolio.gif": "static/media/Portfolio.313f036e.gif",
-  "static/media/ToDo.gif": "static/media/ToDo.43c66f08.gif"
+  "static/media/ToDo.gif": "static/media/ToDo.43c66f08.gif",
+  "static/media/WorldCup.gif": "static/media/WorldCup.d0467434.gif",
+  "static/media/apple-logo.png": "static/media/apple-logo.ac36a8d9.png"
 }
