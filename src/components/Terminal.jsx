@@ -46,7 +46,7 @@ const Terminal = () => {
                 <div className='terminal' id='skills'>
                     <div className='terminalCommand'><span>></span> Fabio.skills</div>
                     <div className='response'>
-                        ["CSS", "JavaScript", "Python", "ReactJS", "Redux", "git", "Jest", "Enzyme", "C++" ]
+                        ["CSS", "JavaScript", "Python", "ReactJS", "Redux", "git", "Jest", "C++", "Webpack", "Electron" ]
                     </div>
                 </div>
                 {/* CURSOR */}
