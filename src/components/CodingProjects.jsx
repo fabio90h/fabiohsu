@@ -81,7 +81,7 @@ class CodingProjects extends Component {
                                     src={project.video} 
                                     alt={project.title}
                                     muted
-                                    play
+                                    controls
                                     type='video/mp4' 
                                     autoPlay
                                     loop
