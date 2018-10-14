@@ -80,7 +80,10 @@ class CodingProjects extends Component {
                                 <video 
                                     src={project.video} 
                                     alt={project.title}
-                                    type='*' 
+                                    type='video/mp4 mp4 mp4v mpg4' 
+                                    autoPlay
+                                    loop
+                                    muted
                                 />
                             </div>
                             {/* CODE PROJECT INFORMATION */}
