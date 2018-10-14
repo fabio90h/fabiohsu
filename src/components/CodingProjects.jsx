@@ -78,8 +78,6 @@ class CodingProjects extends Component {
                              {/* CODE PROJECT IMAGE */}
                             <div id='codingProjectImage'>
                                 <video 
-                                    //height={project.dimension.height}
-                                    //width={project.dimension.width}
                                     src={project.video} 
                                     alt={project.title}
                                     muted
@@ -87,6 +85,7 @@ class CodingProjects extends Component {
                                     type='video/mp4' 
                                     autoPlay
                                     loop
+                                    playsinline
                                 />
                             </div>
                             {/* CODE PROJECT INFORMATION */}
