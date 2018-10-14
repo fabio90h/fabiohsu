@@ -43,7 +43,7 @@ class CodingProjects extends Component {
             title: 'IOU',
             description: 'An application that keeps track of how much money someone owes you.',
             purpose: 'This idea came to me after I couldn’t keep track of all the expenses my roommate owed me. From groceries, utilities, food take outs, and more. I used to write them all in iPhone Note app but then I would have to manually calculate everything. Also, I would forget which ones were already paid and which were not. So I wanted to make an application that could keep track of all the charges, all the paid charges, and automatically calculate the total amount owed.',
-            video: require('./video/IOU.mp4'),
+            video: require('./video/IOU.mov'),
             techs: ['HTML', 'CSS', 'ReactJS', 'JavaScript'],
             github: 'https://github.com/fabio90h/iou',
             demo: 'https://fabio90h.github.io/iou/',
@@ -81,8 +81,7 @@ class CodingProjects extends Component {
                                     src={project.video} 
                                     alt={project.title}
                                     muted
-                                    controls
-                                    type='video/mp4' 
+                                    type='*' 
                                     autoPlay
                                     loop
                                     playsinline
