@@ -16,7 +16,7 @@ const Terminal = () => {
                 {/* LOCATION */}
                 <div className='terminal' id='location'>
                     <div className='terminalCommand'><span>></span> Fabio.currentLocation</div>
-                    <div className='response'>"Detroit, Michigan" (Relocating to California)</div>
+                    <div className='response'>"San Francisco, CA"</div>
                 </div>
                 {/* CONTACT INFO */}
                 <div className='terminal' id='contactInfo'>
@@ -46,7 +46,7 @@ const Terminal = () => {
                 <div className='terminal' id='skills'>
                     <div className='terminalCommand'><span>></span> Fabio.skills</div>
                     <div className='response'>
-                        ["CSS", "JavaScript", "Python", "ReactJS", "Redux", "git", "Jest", "C++", "Webpack", "Electron" ]
+                        ["JavaScript", "Python", "React", "Redux", "git", "Jest", "MongoDB", "ExpressJs",  "Electron" ]
                     </div>
                 </div>
                 {/* CURSOR */}

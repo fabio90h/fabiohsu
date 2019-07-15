@@ -29,7 +29,7 @@ class App extends Component {
       .to(".title", 0.5, {opacity: 1, y: 5}, '-=3.6')    
       .to("#terminalContainer", 0.5, {opacity: 1, x: 10}, '-=2.0')
    
-    //timeline.add(tween1).add(tween2);
+    // timeline.add(tween1).add(tween2);
     let scene = new ScrollMagic.Scene({
         // triggerElement: ".macBook",
         duration: 800,
@@ -60,7 +60,7 @@ class App extends Component {
             {/* <div className='titleBackground'></div> */}
             <h1>> Fabio Hsu<span id='titleCursor' className='blink'>&nbsp;</span></h1>
             <h3>
-              I am a software engineer at General Motors. My passion is to build simple, and beautiful user experience while solving challenging problems.
+              I am a full stack developer at Infostrech. My passion is to build simple, and beautiful user experience while solving challenging problems.
             </h3>
             {/* <AboutMe /> */}
           </div>
